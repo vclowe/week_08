@@ -1,0 +1,45 @@
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.flex img {
+    width: 100%;
+}
+
+ul.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* padding: 50px; */
+    list-style: none;
+
+}
+
+ul.projects li {
+    flex-grow: 1;
+    height: 50vh;
+    padding: .25rem;
+
+}
+
+
+ul.projects li img {
+    max-height: 300px;
+    /* min-width: 100%; */
+    object-fit: cover;
+    vertical-align: bottom;
+    list-style: none;
+    padding: 10px;
+}
+
+.text {
+    font-family: Helvetica, sans-serif;
+    padding: 10px;
+    background-color: hotpink;
+}
+
+.text h1 {
+    font-family: serif;
+}
